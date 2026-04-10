@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1" pages="2">
+  <diagram name="Retail Anomaly Detection System" id="v_G0pf43kUFuFoxCHI9y">
+    <mxGraphModel dx="1106" dy="664" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Retail Dataset (CSV/Kaggle)]&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="42" width="224" x="280" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Data Preprocessing Module]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Clean data&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Handle missing values&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Convert to numeric format&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="224" x="280" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[ML Model: Isolation Forest]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="52" width="224" x="280" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Visualization Layer]&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Matplotlib graphs&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Plotly interactive chart&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="224" x="280" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Anomaly Detection Engine]&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Flags unusual sales&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Produces anomaly labels&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="224" x="280" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Outputs]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Jupyter Notebook&lt;/div&gt;&lt;div&gt;&amp;nbsp; - PDF Reports&lt;/div&gt;&lt;div&gt;&amp;nbsp; - GitHub Project&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="224" x="280" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-8" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="391.5" y="262" />
+            </Array>
+            <mxPoint x="391.5" y="186" as="sourcePoint" />
+            <mxPoint x="391.5" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="326" as="sourcePoint" />
+            <mxPoint x="391.5" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-10" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="694" as="sourcePoint" />
+            <mxPoint x="391.5" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="564" as="sourcePoint" />
+            <mxPoint x="391.5" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqu4dZngUN3KOzXybvMi-12" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="444" as="sourcePoint" />
+            <mxPoint x="391.5" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zE9uDjFI4qAEtQ9M2M21" name="AI Recruitment &amp; Resume Ranking System">
+    <mxGraphModel dx="1106" dy="664" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WCCN593_th7MfJ9hmVRR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[User Inputs]&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt; - Job Description (JD)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Multiple Resumes&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="224" x="308" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Preprocessing Layer]&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Resume chunking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - JD keyword extraction&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="224" x="308" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[LLM Evaluation Engine (gpt-4o-mini)]&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp; &lt;/b&gt;- Score (0–100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Strengths&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Improvement areas&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Fit explanation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="224" x="308" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Shortlisting Engine]&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; IF score &amp;gt;= threshold → shortlisted&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="224" x="308" y="672" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Score Extraction Logic]&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Extract digits&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Format output: &quot;85/100&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="224" x="308" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Analytics Dashboard (Streamlit)]&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Score distribution&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Threshold line&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Dataframe of results&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Recruiter summary&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="98" width="224" x="308" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-7" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="419.5" y="206" />
+            </Array>
+            <mxPoint x="419.5" y="130" as="sourcePoint" />
+            <mxPoint x="419.5" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-8" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="270" as="sourcePoint" />
+            <mxPoint x="419.5" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="732" as="sourcePoint" />
+            <mxPoint x="419.5" y="794" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-10" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="606" as="sourcePoint" />
+            <mxPoint x="419.5" y="668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="476" as="sourcePoint" />
+            <mxPoint x="419.5" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Exports]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - CSV shortlisted candidates&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - Summary recommendation&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; - GitHub artifacts&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="224" x="308" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="WCCN593_th7MfJ9hmVRR-13" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="896" as="sourcePoint" />
+            <mxPoint x="419.5" y="958" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
